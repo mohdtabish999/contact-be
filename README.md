@@ -8,7 +8,7 @@ To use mysql uncomment h2 properties and enable mysql properties.
 ## To deploy on docker:
 ```
 docker build -t mohdtabish999/contact-be:0.1 .
-docker ps
+docker images
 docker run -p 8080:8080 "image-id
 ```
 ## Use jave service with angular
