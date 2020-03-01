@@ -1,8 +1,21 @@
 # MS3 Contact AI
+   URL- http://localhost:8080/contact-service/contact  http://localhost:8080/contact/contact
 
-URL- http://localhost:8080/contact-service/contact
-http://localhost:8080/contact/contact
+## Overview
+project is running on h2 in memory database.\
+To use mysql uncomment h2 properties and enable mysql properties.
 
+## To deploy on docker:
+```
+docker build -t mohdtabish999/contact-be:0.1 .
+docker ps
+docker run -p 8080:8080 "image-id
+```
+## Use jave service with angular
+Use [contact-ui](https://github.com/mohdtabish999/contact-ui) repo. 
+
+
+## JSON 
 ```
 {
    "Identification":{
