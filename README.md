@@ -9,7 +9,7 @@ To use mysql uncomment h2 properties and enable mysql properties.
 ```
 docker build -t mohdtabish999/contact-be:0.1 .
 docker images
-docker run -p 8080:8080 "image-id
+docker run -d -p 8080:8080 mohdtabish999/contact-be:0.1
 ```
 ## Use jave service with angular
 Use [contact-ui](https://github.com/mohdtabish999/contact-ui) repo. 
